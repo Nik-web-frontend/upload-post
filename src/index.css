@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'quicksand';
+}
+
+body {
+    font-family: 'quicksand';
+    background-color: cadetblue;
+    overflow-x: hidden;
+}
+
+.app-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    /* align-items: center; */
+    gap: 2rem;
+    padding: 2rem;
+    width: 100vw;
+    overflow: hidden;
+}
+/* 
+.add-card {
+    height: 500px;
+    width: 350px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(240, 248, 255, 0.438);
+    overflow: hidden;
+
+    .add-btn{
+        outline: none;
+        border: none;
+        background: transparent;
+        font-size: 5rem;
+  
+    }
+} */
+
+.add-card {
+  height: 500px;
+  width: 350px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(240, 248, 255, 0.438);
+  overflow: hidden;
+
+  .add-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 5rem;
+    line-height: 1;
+    padding: 0;
+    margin: 0;
+    width: 100px;     
+    height: 100px;
+    overflow: hidden; 
+    cursor: pointer;
+  }
+
+  .add-btn i {
+    pointer-events: none;
+    display: block;
+    overflow: hidden;
+  }
+}
+
+
+form {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    height: auto;
+    width: 70%;
+    background-color: lightblue;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+input, textarea {
+    outline: none;
+    border: none;
+    height: 2rem;
+    background: white;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 60%;
+}
+textarea{
+    height: 3rem;
+}
+
+
+.submit-btn {
+    outline: none;
+    border: none;
+    height: 2rem;
+    background: white;
+    border-radius: 5px;
+    width: 30%;
+    padding: 0.2rem;
+
+}
+
+.submit-btn:hover {
+    background-color: rgb(52, 94, 96);
+    color: white;
+}
+
+@media (max-width: 790px) {
+    .app-main {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 999px) {
+    input, textarea{
+        width: 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    form{
+        width: 96%;
+    }
+}

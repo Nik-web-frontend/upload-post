@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "profileImg": "https://randomuser.me/api/portraits/men/32.jpg",
+        "postImg": "https://images.unsplash.com/photo-1585202505656-c6b17753db12?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "name": "Ravi Sharma",
+        "profession": "Photographer",
+        "title": "Weekend Shopping Spree",
+        "description": "Went to the new Phoenix Mall today to grab some clothes for my upcoming shoot. Ended up spending more time at the food court than the stores 😂"
+    },
+    {
+        "id":2,
+        "profileImg": "https://randomuser.me/api/portraits/women/44.jpg",
+        "postImg": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "name": "Anjali Mehta",
+        "profession": "Content Creator",
+        "title": "Movie Night Vibes",
+        "description": "Watched the latest thriller at PVR and OMG the suspense had me on edge the entire time. Totally worth the popcorn calories 🍿🎬"
+    },
+    {
+        "id":3,
+        "profileImg": "https://randomuser.me/api/portraits/men/45.jpg",
+        "postImg": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=80&w=1147&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "name": "Yash Patel",
+        "profession": "Automobile Blogger",
+        "title": "Chai Over Deadlines",
+        "description": "Sometimes all you need is a hot cup of chai and a quiet café corner. Escaped the screen for a while today ☕📖"
+    },
+    {
+        "id":4,
+        "profileImg": "https://randomuser.me/api/portraits/women/68.jpg",
+        "postImg": "https://images.unsplash.com/photo-1651153373891-e05aaec75cab?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "name": "Neha Kulkarni",
+        "profession": "Marketing Executive",
+        "title": "Rainy Day Bliss",
+        "description": "Got drenched on the way to work and instead of running, I just stood still and let it pour. Sometimes rain feels like therapy 🌧️🌼"
+    },
+    {
+        "id":5,
+        "profileImg": "https://randomuser.me/api/portraits/men/27.jpg",
+        "postImg": "https://images.unsplash.com/photo-1710144481132-b1702639d4e7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "name": "Arjun Verma",
+        "profession": "Software Developer",
+        "title": "Morning Beach Walk",
+        "description": "Started my day with a peaceful walk along Juhu Beach. The breeze, the waves, and zero notifications — perfect reset 🌊🧘‍♂️"
+    }
+]
