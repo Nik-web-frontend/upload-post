@@ -1,6 +1,7 @@
 {
   "name": "reactproj2",
   "private": true,
+  "homepage": "https://your-username.github.io/upload-post",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
